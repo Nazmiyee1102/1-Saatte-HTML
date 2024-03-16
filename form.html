@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        <form action="">
+            <label for="isim">Ad : </label>
+        <input type="text" name="isim" id="isim"
+        placeholder="Nazmiye" required><!--default olarak yazı yazar.-->
+       <br>
+       <br>
+        <label for="soyad">Soyad : </label>
+        <input type="text" name="soyad" id="soyad"
+        placeholder="KURBAN" required><!--required bir veri girmeyi zorunlu kılar.-->
+        <br><br>
+    
+        <label for="sifre">Şifre : </label>
+        <input type="password" name="sifre" id="sifre"
+        placeholder="****" required maxlength="15"><!--required bir veri girmeyi zorunlu kılar.-->
+        <br><br>
+    
+        <label for="mail">E-Posta : </label>
+        <input type="email" name="mail" id="mail"
+        placeholder="abc@gmail.com" required><!--required bir veri girmeyi zorunlu kılar.-->
+        <br><br>
+        
+        <label for="telefon">Telefon : </label>
+        <input type="tel" name="telefon" id="telefon"
+        placeholder="(555)-555-55-55" required><!--required bir veri girmeyi zorunlu kılar.-->
+        <br><br>
+        
+        <label for="tarih">Tarih : </label>
+        <input type="date" name="tarih" id="tarih"
+        placeholder="01.01.1970" required><!--required bir veri girmeyi zorunlu kılar.-->
+        <br><br>
+    
+        <label for="kardes">KardeşSayısı : </label>
+        <input type="number" name="kardes" id="kardes"
+        placeholder="3" min="0" max="9" required><!--required bir veri girmeyi zorunlu kılar.-->
+        <br><br>
+    
+        <label for="cinsiyet">Cinsiyet : </label>
+        <input type="radio" name="cinsiyet" id="cinsiyet" value="kadin">Kadın<!--required bir veri girmeyi zorunlu kılar.-->
+        <input type="radio" name="cinsiyet" id="cinsiyet" value="erkek">Erkek
+        <br><br>
+    
+        <select name="sehir" id="sehir">
+            <option value="0">Şehir Seçiniz:</option>
+            <option value="69">Bayburt</option>
+            <option value="25">Erzurum</option>
+            <option value="34">İstanbul</option>
+        </select>
+    <br><br>
+    
+    <input type="checkbox" name="" id=""> Aktif olarak çalışıyorum.
+    
+    <br><br>
+    <label for="oneri">Önerileriniz:</label>
+    <br><br>
+    <textarea name="" id="" cols="15" rows="5"></textarea>
+    
+    <br><br>
+    
+    <input type="file" name="" id="" accept=".pdf">
+    
+    <br><br>
+    
+        <input type="reset" value="Sıfırla">
+        
+        <input type="submit" value="Gönder">
+    </form>
+   
+    
+</body>
+</html>
